@@ -1,4 +1,13 @@
 # 7Challenge
+Minhas considerações do desafio:
+- Procurei manter o encapsulamento dos atributos e diminuir ao máximo a exposíção dos métodos;
+- Utilizei alguns princípios do SOLID, Single responsibility principle, Open-closed principle e Liskov substitution principle;
+- Não permiti a entrada de valores negativos;
+- Criei no ficheiro index.php a execução dos testes para as classes Circle e Shape;
+
+Resposta do Problema: Desenvolvi um método (comentado) na Class Circle para sobrescrever o método da Class Shape, assumindo a constante da Class respetiva;
+
+# Descrição do desafio
 O Shape.php deverá ser a classe base com os seguintes requisitos:
 1. 4 propriedades com diferentes tipos de visibilidade.
 - Um name público.
@@ -51,4 +60,3 @@ situação? (Poderá ser um resposta por escrito, ou se preferires, podes criar 
 branch e apresentar uma nova versão do exercício com a resolução do mesmo
 problema).
 
-Resposta: Desenvolvi um método (comentado) na Class Circle para sobrescrever o método da Class Shape;
